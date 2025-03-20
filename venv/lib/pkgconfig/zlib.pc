@@ -1,0 +1,13 @@
+prefix=/Users/prakharporwal/Documents/MLProject/venv
+exec_prefix=/Users/prakharporwal/Documents/MLProject/venv
+libdir=/Users/prakharporwal/Documents/MLProject/venv/lib
+sharedlibdir=/Users/prakharporwal/Documents/MLProject/venv/lib
+includedir=/Users/prakharporwal/Documents/MLProject/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
